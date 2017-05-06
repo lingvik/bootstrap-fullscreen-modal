@@ -38,7 +38,7 @@
       const $h = $e.find('.modal-header');
       const $f = $e.find('.modal-footer');
       const $b = $e.find('.modal-body');
-      $b.css('overflow-y', 'scroll');
+      $b.css('overflow', 'hidden');
       const bh = wh - $h.outerHeight() - $f.outerHeight() - ($b.outerHeight()-$b.height()) - d.height;
       $b.height(bh);
     }
